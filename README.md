@@ -1,30 +1,37 @@
-# Diabetes prediction app
+# Diabetic Predictor
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A web application for predicting diabetes risk using machine learning models. Built with Next.js and TypeScript.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/hranasinghe505-3635s-projects/v0-diabetic-predictor)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/f70tsZgM3kt)
+## Features
+- Multi-step wizard for user data input
+- Interactive sliders and tooltips for health metrics
+- Model testing and scaler settings for admins
+- Export results as PDF
+- Modular and reusable UI components
 
-## Overview
+## Project Structure
+- `app/` - Next.js app directory
+- `components/` - UI and feature components
+- `hooks/` - Custom React hooks
+- `lib/` - Utility and ML logic
+- `public/` - Static assets and models
+- `styles/` - Global styles
+- `v0-diabetic-predictor/` - (Submodule or legacy code)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Getting Started
+1. Install dependencies:
+   ```sh
+   pnpm install
+   # or
+   npm install
+   ```
+2. Run the development server:
+   ```sh
+   pnpm dev
+   # or
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/hranasinghe505-3635s-projects/v0-diabetic-predictor](https://vercel.com/hranasinghe505-3635s-projects/v0-diabetic-predictor)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/f70tsZgM3kt](https://v0.app/chat/f70tsZgM3kt)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## License
+MIT
