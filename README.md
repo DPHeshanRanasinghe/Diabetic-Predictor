@@ -76,6 +76,3 @@ public/models/best_diabetes_model/
 
 This tool is for **educational and informational purposes only**. It is not a medical device, has not been clinically validated, and must not be used to diagnose, treat, or make decisions about any medical condition. Always consult a qualified healthcare professional for medical advice.
 
-## License
-
-MIT
