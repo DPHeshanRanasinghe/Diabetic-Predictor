@@ -6,6 +6,8 @@ A web app that estimates a person's risk of developing type 2 diabetes from life
 
 ![Demo Application](./Assets/demo.gif)
 
+*To watch the full demonstration video, you can view the [Assets/demo.mp4](./Assets/demo.mp4) file.*
+
 ## What it does
 
 The user is guided through a 5-step wizard that collects 22 fields about their health and lifestyle. The app then preprocesses those inputs (scaling, label encoding, one-hot encoding) into a 30-dimensional feature vector, runs them through a trained dense neural network, and returns a diabetes risk probability — categorized as **Low**, **Moderate**, or **High** — along with a short description and next-step recommendations.
