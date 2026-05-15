@@ -94,7 +94,7 @@ export function DiabetesPredictorWizard() {
   }
 
   const handleNext = () => {
-    if (currentStep < STEPS.length) {
+    if (currentStep <= STEPS.length) {
       setCurrentStep(currentStep + 1)
     }
   }
@@ -201,10 +201,10 @@ export function DiabetesPredictorWizard() {
                 {!isResultsStep && `Step ${currentStep + 1} of ${STEPS.length}`}
               </div>
 
-              {!isResultsStep && (
+              {!isResultsStep && !isReviewStep && (
                 <Button onClick={handleNext} className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700">
-                  {isReviewStep ? "Calculate Risk" : "Next"}
-                  {!isReviewStep && <ChevronRight className="w-4 h-4" />}
+                  Next
+                  <ChevronRight className="w-4 h-4" />
                 </Button>
               )}
 

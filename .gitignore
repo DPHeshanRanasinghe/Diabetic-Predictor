@@ -25,3 +25,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Other private/local project files
+/v0-diabetic-predictor/
+/Network/
+/.claude/
