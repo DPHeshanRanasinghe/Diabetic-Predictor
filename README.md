@@ -4,9 +4,7 @@ A web app that estimates a person's risk of developing type 2 diabetes from life
 
 ## Demo
 
-![Demo Application](./Assets/demo.gif)
-
-*To watch the full demonstration video, you can view the [Assets/demo.mp4](./Assets/demo.mp4) file.*
+<video src="./Assets/demo.mp4" width="100%" autoPlay loop muted controls></video>
 
 ## What it does
 
