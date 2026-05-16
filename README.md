@@ -6,6 +6,10 @@ A web app that estimates a person's risk of developing type 2 diabetes from life
 
 [**Click here to watch the full High-Quality Demo Video**](./Assets/demo.mp4)
 
+https://github.com/user-attachments/assets/ea94b248-da24-498c-a9a2-6a3d226d122c
+
+
+
 *(Note: To embed a high-quality video directly in the README that plays automatically, the best method on GitHub is to edit the `README.md` directly on **GitHub.com** and drag & drop the `demo.mp4` file into the web editor. GitHub will upload it to their CDN and create a built-in video player.)*
 
 ## What it does
